@@ -1,0 +1,36 @@
+body{
+	background-color: #b8e9ee;
+	font-family: 'Sansita Swashed', Lobster, cursive;
+}
+
+#title {
+	text-align: center;
+	/*font-family: 'Sansita Swashed', Lobster, cursive;*/
+	line-height: 13px;
+}
+#title h1 {
+	font-size: 36px;
+}
+
+#img-div {
+	background-color: #de3163;
+	height: 550px;
+	padding-top: 50px;
+	margin: auto 20px;
+}
+#img-div p {text-align: center;}
+#image {
+	display: block;
+	margin: auto;
+	height: 400px;
+	width: 600px;
+	max-width: 100%;
+	height: auto;
+}
+
+#tribute-info h3, h2{
+	text-align: center;
+}
+#tribute-info ul {
+	line-height: 1.5em;
+}

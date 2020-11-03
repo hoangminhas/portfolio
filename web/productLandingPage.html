@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KoalaMan's Nintendo Store</title>
+	<link rel="stylesheet" type="text/css" href="../css/styleProductLandingPage.css">
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header id="header">
+		<div id="header-img">
+			<img src="../img/Logo.png" alt="KoalaMan's Store Logo">
+		</div>
+		<nav id="nav-bar">
+			<a class="nav-link" href="#home">Home</a>
+			<a class="nav-link" href="#features">Features</a>
+			<a class="nav-link" href="#games">Games</a>
+			<a class="nav-link" href="#buy">Buy</a>
+		</nav>
+	</header>
+
+	<form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+		<h1>Welcome to KoalaMan Nintendo's Palace</h1><br>
+		<input id="email" type="email" value="email" placeholder="blablabla@email.com" name="register" required=""><br><br>
+		<input id="submit" type="submit" name="register">
+	</form>
+	
+	<main>
+		<div id="home">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/f5uik5fgIaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+		<div id="features">
+			<section class="flex-secs">
+				<img src="../img/icon-album.png" alt="album">
+				<div class="secs">
+				<h3>Album</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				</div>
+			</section>
+			<section class="flex-secs">
+				<img src="../img/icon-news.png" alt="news">
+				<div class="secs">
+				<h3>News</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				</div>
+			</section>
+			<section class="flex-secs">
+				<img src="../img/icon-shop.png" alt="shop">
+				<div class="secs">
+				<h3>Accessories</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				</div>
+			</section>
+		</div>
+
+		<div id="price">
+			<div id="games">
+				<section class="games-sections">
+					<img src="../img/AnimalCross.png" alt="Animal Crossing">
+					<button type="submit" value="submit">$60</button>
+				</section>
+				<section class="games-sections">
+					<img src="../img/MarioKart.png" alt="Mario Kart 8">
+					<button type="submit" value="submit">$60</button>
+				</section>
+				<section class="games-sections">
+					<img src="../img/SuperSmash.png" alt="Super Smash Bros">
+					<button type="submit" value="submit">$60</button>
+				</section>
+			</div><br>
+			<div id="buy">
+				<img src="../img/NintendoSwitch.png">
+				<button type="submit" value="submit">Buy</button>
+			</div>
+		</div>
+	</main>
+</body>
+
+<footer>
+	<ul>
+		<a href="#"><li>Privacy</li></a>
+		<a href="#"><li>Terms</li></a>
+		<a href="#"><li>Contact</li></a>
+	</ul><br>
+	<p id="copyright">&copy;2020, KoalaMan's Superstore</p>
+</footer>
+</html>

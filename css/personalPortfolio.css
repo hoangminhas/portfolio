@@ -1,0 +1,135 @@
+* {
+	padding: 0 0;
+	margin: 0 auto;
+	font-family: 'Itim', cursive;
+}
+body{margin-top: 58px;}
+
+/*navigation control*/
+#navbar {
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	padding: 20px;
+	background-color: #00a3a3;
+
+}
+#navbar ol {
+	list-style: none;
+
+}
+#navbar ol a {
+	text-decoration: none;
+	color: pink;
+}
+#navbar ol li{
+	float: right;
+	padding: 0 30px;
+	font-size: 20px;
+}
+
+/*information*/
+#welcome-section{
+	padding-top: 50px;
+	height: 130vh;
+	background-color: #f28500;
+}
+header {
+	text-align: center;
+	font-size: 36px;
+	color: pink;
+}
+#welcome-section img {
+	width: 780px;
+	height: 520px;
+	display: block;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#welcome-section h3,ol{
+	text-align: center;
+	color: pink;
+}
+
+/*projects listing*/
+#projects{
+	background-color: #e3ff00;
+	padding-top: 70px;
+	
+	padding-bottom: 70px;
+}
+#projects h2{
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 30px;
+	padding: 40px 100px;
+
+}
+.project-title{
+	border: 2px #000 solid;
+}
+.project-title a {text-decoration: none;}
+#projects p{
+	text-align: center;
+	border-top: 2px #000 solid;
+	padding: 10px;
+	background-color: #977043;
+	color: white;
+	font-size: 20px;
+}
+
+#key-button{
+	text-align: center;
+	
+}
+#key-button button {
+	background-color: #977043;
+	color: white;
+	width: 5.5em;
+	height: 3.5em;
+}
+
+
+
+/*contact control*/
+#contact{
+	background-color: red;
+	color: white;
+	height: 230px;
+	line-height: 2.6em;
+}
+#contact h2,p{
+	text-align: center;
+	font-size: 36px;
+}
+#contact h2{padding-top: 30px;}
+#channel {
+	display: flex;
+	width: 50%;
+	justify-content: center;
+}
+.contact-channel a {
+	text-decoration: none;
+	font-size: 30px;
+	color: cyan;
+	
+}
+
+
+footer {
+	padding-top: 20px;
+	background-color: #00a3a3;
+	color: pink;
+}
+footer h3,p{
+	text-align: center;
+}

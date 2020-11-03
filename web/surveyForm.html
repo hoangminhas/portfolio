@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="../css/styleSurveyForm.css">
+	<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&family=Turret+Road&display=swap" rel="stylesheet">
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+	<div class="header">
+		<h1 id="title">Rete Academy Survey Form</h1>
+		<p id="description">Thank you for your support</p>
+	</div>
+	<main>
+		<form id="survey-form" action="#" method="get">
+			<label id="name-label" for="name">Name</label>
+			<input id="name" type="name" name="name" placeholder="Nguyen Hoang Minh" required=""><br>
+			<label id="email-label" for="email">Email</label>
+			<input id="email" type="email" name="email" form="email" placeholder="SheMale@gmail.com"><br>
+			<label id="number-label" for="number">Age</label>
+			<input id="number" type="number" name="age" min="15" max="35" placeholder="21" required><br>
+			<!-- <label for="message">Message</label>
+			<textarea name="message" placeholder="What do you want to express..."></textarea> -->
+			<label for="dropdown">Which subject do you want to add in the next update?</label>
+			<select id="dropdown-slt">
+				<option disabled="" selected="" value="">Select your subject</option>
+				<option>UI/UX</option>
+				<option>Fullstack Development</option>
+				<option>Graphic Design</option>
+			</select>
+			<br><br>
+			<fieldset>
+				<legend>Gender</legend>
+				<label for="Male">
+					<input id="Male" type="radio" value="male" name="Gender">Male</label> <br>
+				<label for="Female">
+					<input id="Female" type="radio" value="female" name="Gender">Female</label>
+			</fieldset>
+			<br>	
+			<fieldset>
+				<legend>What is your skills set</legend>
+				
+				<label for="HTML"><input id="HTML" type="checkbox" name="skills-set" value="HTML">HTML</label><br>
+				
+				<label for="CSS"><input id="CSS" type="checkbox" name="skills-set" value="CSS">CSS</label><br>
+				
+				<label for="Jacascript"><input id="Jacascript" type="checkbox" name="skills-set" value="Javascript">Javascript</label><br>
+				
+				<label for="Php"><input id="Php" type="checkbox" name="skills-set" value="Php">Php</label><br>
+				
+				<label for="Photoshop"><input id="Photoshop" type="checkbox" name="skills-set" value="Photoshop">Photoshop</label><br>
+				
+				<label for="English"><input id="English" type="checkbox" name="skills-set" value="English">English</label><br>
+			</fieldset>
+			<br>
+			<label id="message-label" for="message">Message</label>
+			<textarea id="message" name="message" placeholder="What do you want to express..."></textarea>
+			<br>
+			<button id="submit" value="submit">Submit</button>
+		</form>
+	</main>
+
+</body>
+</html>

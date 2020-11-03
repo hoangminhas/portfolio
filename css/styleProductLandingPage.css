@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin-top: 100px;
+	background-color: #f5ded2;
+	font-family: 'Syne Mono', monospace;
+}
+/*@media (max-width: 800px) {
+	body {
+		font-size: 15px;
+	}
+}*/
+
+/*navigate bar control*/
+#header {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: #5ea3b3;
+	height: 69.5px;
+}
+#header-img {
+	margin: all;
+}
+#nav-bar {
+	flex-basis: 85%;
+	text-align: right;
+	align-self: center;
+
+}
+#nav-bar a {
+	padding: 0 50px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #f5ded2;
+	font-family: 'Syne Mono', monospace;
+}
+
+/*form register*/
+#form {
+	text-align: center;
+	margin-bottom: 100px;
+}
+#form h1 {
+	font-family: 'Press Start 2P', cursive;
+	color: red;
+}
+#form #email {
+	width: 20%;
+	padding: 0.7em 0;
+	border: 2px solid #5ea3b3;
+}
+#form #submit {
+	width: 5%;
+	padding: 0.5em 0;
+	/*box-shadow: 5px 5px 5px #5ea3b3;*/
+	background-color: orange;
+	border: 2px dotted #5ea3b3;
+
+}
+
+
+div iframe {
+	display: block;
+	margin: auto;
+	margin-bottom: 100px;
+	box-shadow: 5px 5px 5px #5ea3b3;
+}
+
+/*Features mode*/
+.secs {
+	display: inline-block;
+	
+}
+#features section {
+	display: flex;
+	margin: 30px auto;
+	box-shadow: 5px 5px 5px #5ea3b3;
+}
+
+#features {
+	display: block;
+	width: 860px;
+	margin: auto;
+}
+
+#features section .secs {
+	margin-left: 20px;
+}
+
+/*games control*/
+
+#games {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 18%;
+	margin-left: 18%;
+
+}
+#games button {
+	background-color: red;
+	padding: 0.7em;
+	font-size: 20px;
+	color: white;
+}
+
+#games .games-sections {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 5px 5px 5px #5ea3b3;
+}
+
+#price #buy {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	margin: auto;
+	margin-top: 100px;
+	box-shadow: 5px 5px 5px #5ea3b3;
+}
+#buy button {
+	background-color: red;
+	padding: 0.7em;
+	font-size: 20px;
+	color: white;
+}
+
+footer {
+	width: 45%;
+	height: 70px;
+	background-color: #5ea3b3;
+	margin: auto;
+	margin-top: 50px;
+	line-height: 1.5em;
+	padding-top: 20px;
+	color: #f5ded2;
+}
+
+footer li {
+	text-decoration: none;
+	list-style: none;
+	padding-left: 30px;
+	float: right;
+	color: #f5ded2;
+}
+footer ul {text-decoration: none;}
+
+footer #copyright {
+	display: flex;
+	justify-content: flex-end;
+	
+}

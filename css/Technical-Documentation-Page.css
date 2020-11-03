@@ -1,0 +1,72 @@
+* {
+	padding: 0 0;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Source Code Pro', monospace;
+	background-color: #ffff31;
+	/*color: #EE82EE;*/
+}
+@media (max-width: 800px) {
+	#nav-bar ul{
+		font-size: 20px;
+	}
+	#main-doc{
+		font-size: 14px;
+	}
+}
+/*navigate bar*/
+#nav-bar {
+	width: 30%;
+	float: left;
+	border: 2px solid #000;
+	padding-bottom: 450px;
+	font-size: 30px;
+	position: fixed;
+}
+
+#nav-bar header {
+	text-align: center;
+	font-size: 38px;
+}
+#nav-bar ul {
+
+}
+#nav-bar ul li {
+
+	list-style: none;
+	padding-top: 30px;
+	border-bottom: 2px solid #EE82EE;
+
+}
+#nav-bar li a{
+	text-decoration: none;
+}
+
+/*main doc*/
+.main-section header {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.main-section code {
+	padding: 10px; 
+	background-color: #EE82EE;
+}
+
+
+
+
+
+
+
+#main-doc {
+	float: right;
+	width: 69.4%;
+	border: 2px solid #000;
+	height: 100%;
+}
+#Introduction ol {
+	padding-left: 30px;
+}

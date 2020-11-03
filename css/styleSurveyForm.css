@@ -1,0 +1,52 @@
+html {
+	font-family: 'Turret Road', Lobster, cursive;
+}
+body {
+	background-image: url(../img/Retecover.png);
+}
+
+/*head part*/
+.header {
+	text-align: center;
+	line-height: 17px;
+}
+
+/*main part*/
+main {
+	margin: auto;
+	width: 50%;
+	/*height: 1080px;*/
+}
+
+main #survey-form {
+	background-color: #aaf0d1;
+	/*height: 1020px;*/
+	padding: 30px;
+	font-size: 22px;
+	color: #D48827;
+	
+}
+
+#survey-form label[id="name-label"], label[id="email-label"], label[id="number-label"], label[id="message-label"]  {display: block;}
+#survey-form input {margin-bottom: 1em;}
+#survey-form input[id='name'], input[id='email'], input[id='number'], #dropdown-slt, #message {
+	width: 96.5%;
+	padding: 8px;
+}
+#survey-form #message {
+	min-height: 100px;
+	resize: vertical;
+}
+#survey-form #dropdown-slt {width: 99.5%;}
+#submit {
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	width: 100%;
+	padding: 10px;
+	/*background-color: #D48827;*/
+}
+
+button:hover {
+	background-color: #D48827;
+}
